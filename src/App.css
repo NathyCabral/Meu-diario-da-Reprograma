@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #424242;
+}
+
+
+
+@keyframes bg {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 10000px;
+  }
+}
+
+.header-titulo {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  margin: 30px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
+  background-size: 1000px 100%;
+  animation: bg 15s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+}
+
+.container_perfil {
+  display: flex;
+  margin: 40px auto;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 60%;
+}
+
+.container-title {
+  padding-top: 50px;
+  text-align: center;
+  color: #405cb8;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.profile-img {
+  width: 15%;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border: solid 1px #1e5799;
+}
+
+hr {
+  margin: 20px;
+}
+
+.skills{
+  padding-top: 50px;
+  text-align: center;
+  color: #405cb8;
+  font-size: 48px;
+}
+
+.cards-container {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  width: 60%;
+  align-items: center;
+  baseline: center;
+}
+
+.cards {
+  width: 400px;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.image-card {
+  width: 420px;
+  height: 250px;
+}
